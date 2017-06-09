@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{85DA29
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Common.Models", "OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj", "{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Presentation.Web", "OpenQbit.Hospital.Presentation.Web\OpenQbit.Hospital.Presentation.Web.csproj", "{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,11 +29,16 @@ Global
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51} = {88700C72-71ED-452E-9E89-DDD71D50328B}
+		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA} = {74E2477C-82DD-40F1-8ED5-A646E2BA70D4}
 	EndGlobalSection
 EndGlobal
