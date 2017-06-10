@@ -1,4 +1,4 @@
-﻿using OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;

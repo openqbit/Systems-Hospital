@@ -1,11 +1,11 @@
-﻿using OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
-    public class OrderDetail
+    public class PharmacyOrdersDetail
     {
         public int OrderDetailID { get; set; }
 

@@ -1,5 +1,4 @@
 ﻿using OpenQbit.Hospital.Common.Models.Phamarcy;
-using OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +10,9 @@ namespace OpenQbit.Hospital.Common.Models
     {
         public int PID { get; set; }
         public String PatientName { get; set; }
-        public virtual ICollection<Orders> Orders { get; set; }
+        
+        public virtual ICollection<PatientAdmition> PatientAdmition { get; set; }
+        
+
     }
 }

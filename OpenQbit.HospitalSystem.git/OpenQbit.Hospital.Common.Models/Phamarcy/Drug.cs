@@ -21,7 +21,12 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
 
         public DateTime expireDate { get; set; }
 
+        public int MedicineId { get; set; }
+
+        public int CategoryId { get; set; }
+
         public virtual Medicine Medicine { get; set; }
+        public virtual Category Category { get; set; }
 
     }
 

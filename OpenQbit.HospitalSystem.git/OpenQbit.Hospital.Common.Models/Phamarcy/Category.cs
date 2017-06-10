@@ -11,7 +11,7 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
 
         public String categoryName { get; set; }
 
-        public virtual ICollection<OrderDetail> OrderDetail { get; set; }
+       // public virtual ICollection<PharmacyOrdersDetail> OrderDetail { get; set; }
 
         public virtual ICollection<Drug> Drug { get; set; }
     }

@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models
+namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
     public class Payment
     {
@@ -16,6 +16,6 @@ namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models
 
         public DateTime date { get; set; }
 
-        public virtual Orders Orders { get; set; }
+        public virtual PharmacyOrders PharmacyOrders { get; set; }
     }
 }

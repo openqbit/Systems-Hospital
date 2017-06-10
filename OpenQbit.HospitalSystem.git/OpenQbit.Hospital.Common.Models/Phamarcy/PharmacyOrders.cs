@@ -1,5 +1,4 @@
-﻿using OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models;
-using OpenQbit.Hospital.Presentation.Web.Models;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -8,7 +7,7 @@ using System.Web;
 
 namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
-    public class Orders
+    public class PharmacyOrders
     {
         public int OrderID { get; set; }
 
@@ -16,7 +15,9 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
 
         public DateTime date { get; set; }
 
-        public virtual Patient Patient { get; set; }
+        public int PatientAdmitionId { get; set; }
+
+        public virtual PatientAdmition PatientAdmition { get; set; }
 
         public virtual ICollection<Payment> Payment { get; set; }
 

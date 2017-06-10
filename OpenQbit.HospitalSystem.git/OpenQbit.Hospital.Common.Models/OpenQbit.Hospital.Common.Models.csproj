@@ -51,11 +51,12 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="PatientAdmition.cs" />
     <Compile Include="Phamarcy\Category.cs" />
     <Compile Include="Phamarcy\Drug.cs" />
     <Compile Include="Phamarcy\Medicine.cs" />
-    <Compile Include="Phamarcy\OrderDetail.cs" />
-    <Compile Include="Phamarcy\Orders.cs" />
+    <Compile Include="Phamarcy\PharmacyOrdersDetail.cs" />
+    <Compile Include="Phamarcy\PharmacyOrders.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="Phamarcy\Payment.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
