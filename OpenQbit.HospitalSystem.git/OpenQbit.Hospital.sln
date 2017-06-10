@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.DataAcces
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.DataAccsess.DAL", "OpenQbit.Hospital.DataAccsess.DAL\OpenQbit.Hospital.DataAccsess.DAL.csproj", "{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Presentation.Web", "OpenQbit.Hospital.Presentation.Web\OpenQbit.Hospital.Presentation.Web.csproj", "{13B5EC35-D766-4C3F-8A63-4197C9F2F3B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13B5EC35-D766-4C3F-8A63-4197C9F2F3B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13B5EC35-D766-4C3F-8A63-4197C9F2F3B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13B5EC35-D766-4C3F-8A63-4197C9F2F3B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13B5EC35-D766-4C3F-8A63-4197C9F2F3B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,5 +81,6 @@ Global
 		{CD15201E-F1D7-4D00-A38F-CC93245D86B4} = {08434654-B787-41E7-9433-09DB27F57B9C}
 		{6D07F9FE-0182-468D-9FD5-4935880B4936} = {D05AA73A-CC45-493A-BFC2-93D9EE6E6CC3}
 		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7} = {D05AA73A-CC45-493A-BFC2-93D9EE6E6CC3}
+		{13B5EC35-D766-4C3F-8A63-4197C9F2F3B3} = {0759653D-B7D8-493F-A54D-851E3DB9B758}
 	EndGlobalSection
 EndGlobal
