@@ -10,6 +10,7 @@ namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models
     {
         public int SupplierOrderID { get; set; }
 
+
         public int addedQty { get; set; }
 
         public String ItemName { get; set; }
