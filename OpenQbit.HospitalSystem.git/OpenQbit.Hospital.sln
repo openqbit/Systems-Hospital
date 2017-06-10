@@ -27,6 +27,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.BusinessS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.BusinessService.Contracts", "OpenQbit.Hospital.BusinessService.Contracts\OpenQbit.Hospital.BusinessService.Contracts.csproj", "{CD15201E-F1D7-4D00-A38F-CC93245D86B4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.DataAccess.DAL.Contracts", "OpenQbit.Hospital.DataAccess.DAL.Contracts\OpenQbit.Hospital.DataAccess.DAL.Contracts.csproj", "{6D07F9FE-0182-468D-9FD5-4935880B4936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.DataAccsess.DAL", "OpenQbit.Hospital.DataAccsess.DAL\OpenQbit.Hospital.DataAccsess.DAL.csproj", "{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Service.WebAPI", "OpenQbit.Hospital.Service.WebAPI\OpenQbit.Hospital.Service.WebAPI.csproj", "{3B556D7E-AD0A-46F2-BBFC-14B7EA0460CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +63,18 @@ Global
 		{CD15201E-F1D7-4D00-A38F-CC93245D86B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD15201E-F1D7-4D00-A38F-CC93245D86B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD15201E-F1D7-4D00-A38F-CC93245D86B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D07F9FE-0182-468D-9FD5-4935880B4936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D07F9FE-0182-468D-9FD5-4935880B4936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D07F9FE-0182-468D-9FD5-4935880B4936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D07F9FE-0182-468D-9FD5-4935880B4936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B556D7E-AD0A-46F2-BBFC-14B7EA0460CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B556D7E-AD0A-46F2-BBFC-14B7EA0460CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B556D7E-AD0A-46F2-BBFC-14B7EA0460CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B556D7E-AD0A-46F2-BBFC-14B7EA0460CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -68,5 +86,8 @@ Global
 		{9DE3E8A6-0AD3-4808-980E-EAC4F88C0118} = {85DA2994-967A-4EB2-A8D1-65B583BCD5FB}
 		{783A4EBF-7CDE-46ED-A666-14A860FED1EF} = {08434654-B787-41E7-9433-09DB27F57B9C}
 		{CD15201E-F1D7-4D00-A38F-CC93245D86B4} = {08434654-B787-41E7-9433-09DB27F57B9C}
+		{6D07F9FE-0182-468D-9FD5-4935880B4936} = {D05AA73A-CC45-493A-BFC2-93D9EE6E6CC3}
+		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7} = {D05AA73A-CC45-493A-BFC2-93D9EE6E6CC3}
+		{3B556D7E-AD0A-46F2-BBFC-14B7EA0460CE} = {0759653D-B7D8-493F-A54D-851E3DB9B758}
 	EndGlobalSection
 EndGlobal
