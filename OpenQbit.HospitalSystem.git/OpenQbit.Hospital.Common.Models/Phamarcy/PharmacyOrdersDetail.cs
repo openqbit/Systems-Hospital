@@ -7,7 +7,7 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
     public class PharmacyOrdersDetail
     {
-        public int OrderDetailID { get; set; }
+        public int ID { get; set; }
 
         public int orderQty { get; set; }
 
