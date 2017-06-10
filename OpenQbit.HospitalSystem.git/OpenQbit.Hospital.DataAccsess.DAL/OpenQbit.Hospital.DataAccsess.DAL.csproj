@@ -49,6 +49,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201706101607424_dbInit.cs" />
+    <Compile Include="Migrations\201706101607424_dbInit.Designer.cs">
+      <DependentUpon>201706101607424_dbInit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PharmacyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -62,6 +66,11 @@
       <Project>{27cbc4b0-558d-4cf7-bf7d-a557fe1b8b51}</Project>
       <Name>OpenQbit.Hospital.Common.Models</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201706101607424_dbInit.resx">
+      <DependentUpon>201706101607424_dbInit.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
