@@ -9,7 +9,7 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
     public class Drug
     {
-        public int DrugID { get; set; }
+        public int ID { get; set; }
 
         public String drugName { get; set; }
 
