@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Common", "0 Common", "{88700C72-71ED-452E-9E89-DDD71D50328B}"
 EndProject
@@ -16,8 +16,6 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 Test", "5 Test", "{85DA2994-967A-4EB2-A8D1-65B583BCD5FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Common.Models", "OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj", "{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Presentation.Web", "OpenQbit.Hospital.Presentation.Web\OpenQbit.Hospital.Presentation.Web.csproj", "{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Test.BusinessService", "OpenQbit.Hospital.Test.BusinessService\OpenQbit.Hospital.Test.BusinessService.csproj", "{BAB5375F-C667-447D-9797-D33ED39642E1}"
 EndProject
@@ -43,10 +41,6 @@ Global
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BAB5375F-C667-447D-9797-D33ED39642E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BAB5375F-C667-447D-9797-D33ED39642E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BAB5375F-C667-447D-9797-D33ED39642E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -81,7 +75,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51} = {88700C72-71ED-452E-9E89-DDD71D50328B}
-		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA} = {74E2477C-82DD-40F1-8ED5-A646E2BA70D4}
 		{BAB5375F-C667-447D-9797-D33ED39642E1} = {85DA2994-967A-4EB2-A8D1-65B583BCD5FB}
 		{9DE3E8A6-0AD3-4808-980E-EAC4F88C0118} = {85DA2994-967A-4EB2-A8D1-65B583BCD5FB}
 		{783A4EBF-7CDE-46ED-A666-14A860FED1EF} = {08434654-B787-41E7-9433-09DB27F57B9C}
