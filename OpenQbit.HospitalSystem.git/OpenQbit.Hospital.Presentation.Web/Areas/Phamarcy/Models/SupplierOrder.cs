@@ -25,7 +25,6 @@ namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models
 
         public DateTime addedDate { get; set; }
 
-
         public virtual Drug Drug { get; set; }
         public virtual Supplier Supplier { get; set; }
     }
