@@ -1,10 +1,11 @@
-﻿using System;
+﻿using OpenQbit.Hospital.Common.Models.Phamarcy;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models
+namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
     public class Drug
     {
@@ -20,8 +21,7 @@ namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models
 
         public DateTime expireDate { get; set; }
 
-        public virtual ICollection<SupplierOrder> SupplierOrder { get; set; }
-
+        public virtual Medicine Medicine { get; set; }
 
     }
 

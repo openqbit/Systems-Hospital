@@ -1,11 +1,12 @@
-﻿using OpenQbit.Hospital.Presentation.Web.Models;
+﻿using OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models;
+using OpenQbit.Hospital.Presentation.Web.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models
+namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
     public class Orders
     {

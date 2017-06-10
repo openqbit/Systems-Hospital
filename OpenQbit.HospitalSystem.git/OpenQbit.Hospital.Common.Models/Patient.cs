@@ -1,10 +1,11 @@
-﻿using OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models;
+﻿using OpenQbit.Hospital.Common.Models.Phamarcy;
+using OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace OpenQbit.Hospital.Presentation.Web.Models
+namespace OpenQbit.Hospital.Common.Models
 {
     public class Patient
     {
