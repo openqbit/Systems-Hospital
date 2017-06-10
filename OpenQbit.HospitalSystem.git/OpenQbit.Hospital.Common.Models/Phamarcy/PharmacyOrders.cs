@@ -9,7 +9,7 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
     public class PharmacyOrders
     {
-        public int OrderID { get; set; }
+        public int ID { get; set; }
 
         public DateTime Time { get; set; }
 
