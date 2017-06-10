@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Test.Busi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Test.DAL", "OpenQbit.Hospital.Test.DAL\OpenQbit.Hospital.Test.DAL.csproj", "{9DE3E8A6-0AD3-4808-980E-EAC4F88C0118}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.BusinessService", "OpenQbit.Hospital.BusinessService\OpenQbit.Hospital.BusinessService.csproj", "{783A4EBF-7CDE-46ED-A666-14A860FED1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.BusinessService.Contracts", "OpenQbit.Hospital.BusinessService.Contracts\OpenQbit.Hospital.BusinessService.Contracts.csproj", "{CD15201E-F1D7-4D00-A38F-CC93245D86B4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{9DE3E8A6-0AD3-4808-980E-EAC4F88C0118}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9DE3E8A6-0AD3-4808-980E-EAC4F88C0118}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9DE3E8A6-0AD3-4808-980E-EAC4F88C0118}.Release|Any CPU.Build.0 = Release|Any CPU
+		{783A4EBF-7CDE-46ED-A666-14A860FED1EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783A4EBF-7CDE-46ED-A666-14A860FED1EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783A4EBF-7CDE-46ED-A666-14A860FED1EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783A4EBF-7CDE-46ED-A666-14A860FED1EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD15201E-F1D7-4D00-A38F-CC93245D86B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD15201E-F1D7-4D00-A38F-CC93245D86B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD15201E-F1D7-4D00-A38F-CC93245D86B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD15201E-F1D7-4D00-A38F-CC93245D86B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,5 +66,7 @@ Global
 		{6AA17F2B-1AF7-42DB-A0D6-841C3BC3C6DA} = {74E2477C-82DD-40F1-8ED5-A646E2BA70D4}
 		{BAB5375F-C667-447D-9797-D33ED39642E1} = {85DA2994-967A-4EB2-A8D1-65B583BCD5FB}
 		{9DE3E8A6-0AD3-4808-980E-EAC4F88C0118} = {85DA2994-967A-4EB2-A8D1-65B583BCD5FB}
+		{783A4EBF-7CDE-46ED-A666-14A860FED1EF} = {08434654-B787-41E7-9433-09DB27F57B9C}
+		{CD15201E-F1D7-4D00-A38F-CC93245D86B4} = {08434654-B787-41E7-9433-09DB27F57B9C}
 	EndGlobalSection
 EndGlobal
