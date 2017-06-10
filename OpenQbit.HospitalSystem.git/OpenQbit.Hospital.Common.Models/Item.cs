@@ -8,7 +8,7 @@ namespace OpenQbit.Hospital.Common.Models
 {
     public class Item
     {
-        public int ItemId { get; set; }
+        public int ID { get; set; }
         public string Name { get; set; }
         public string Description { get; set; }
         public ItemType ItemType { get; set; }
