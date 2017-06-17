@@ -77,6 +77,10 @@
       <Project>{27cbc4b0-558d-4cf7-bf7d-a557fe1b8b51}</Project>
       <Name>OpenQbit.Hospital.Common.Models</Name>
     </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.Common.Utils.Logs\OpenQbit.Hospital.Common.Utils.Logs.csproj">
+      <Project>{0c5cec09-e368-43ce-b3e8-f294235a476c}</Project>
+      <Name>OpenQbit.Hospital.Common.Utils.Logs</Name>
+    </ProjectReference>
     <ProjectReference Include="..\OpenQbit.Hospital.DataAccess.DAL.Contracts\OpenQbit.Hospital.DataAccess.DAL.Contracts.csproj">
       <Project>{6d07f9fe-0182-468d-9fd5-4935880b4936}</Project>
       <Name>OpenQbit.Hospital.DataAccess.DAL.Contracts</Name>

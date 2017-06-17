@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQbit.Hospital.Common.Models;
 using OpenQbit.Hospital.DataAccess.DAL.Contracts;
+using OpenQbit.Hospital.Common.Utils.Logs;
+using Microsoft.Practices.Unity;
 
 namespace OpenQbit.Hospital.BusinessService
 {
