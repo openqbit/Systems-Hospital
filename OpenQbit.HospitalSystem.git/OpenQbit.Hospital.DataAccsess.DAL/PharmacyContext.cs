@@ -1,5 +1,7 @@
 ﻿using OpenQbit.Hospital.Common.Models;
+using OpenQbit.Hospital.Common.Models.OpenQbit.Hospital.Common.Models;
 using OpenQbit.Hospital.Common.Models.Phamarcy;
+using OpenQbit.Hospital.Common.Models.Phamarcy.OpenQbit.Hospital.Common.Models.Phamarcy;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
