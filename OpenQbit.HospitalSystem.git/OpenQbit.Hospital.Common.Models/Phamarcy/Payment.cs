@@ -11,7 +11,7 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
     {
         public class Payment
         {
-            public int PaymentID { get; set; }
+            public int ID { get; set; }
 
             public double TotalAmount { get; set; }
 

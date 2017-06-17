@@ -9,7 +9,7 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
     {
         public class Category
         {
-            public int CategoryID { get; set; }
+            public int ID { get; set; }
 
             public String CategoryName { get; set; }
 

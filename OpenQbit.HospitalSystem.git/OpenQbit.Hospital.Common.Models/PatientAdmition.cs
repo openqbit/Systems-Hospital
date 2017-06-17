@@ -13,7 +13,7 @@ namespace OpenQbit.Hospital.Common.Models
     {
         public class PatientAdmition
         {
-            public int PatientAdmitionId { get; set; }
+            public int ID { get; set; }
 
             public int PatientId { get; set; }
             public Patient Patient { get; set; }

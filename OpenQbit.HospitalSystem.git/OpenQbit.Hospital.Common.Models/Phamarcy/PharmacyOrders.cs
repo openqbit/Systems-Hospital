@@ -1,4 +1,5 @@
 ﻿
+using OpenQbit.Hospital.Common.Models.OpenQbit.Hospital.Common.Models;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -12,7 +13,7 @@ namespace OpenQbit.Hospital.Common.Models.Phamarcy
     {
         public class PharmacyOrders
         {
-            public int OrderID { get; set; }
+            public int ID { get; set; }
 
             public DateTime Time { get; set; }
 
