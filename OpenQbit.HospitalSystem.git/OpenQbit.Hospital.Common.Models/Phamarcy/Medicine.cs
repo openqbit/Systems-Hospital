@@ -7,10 +7,14 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
-   public  class Medicine
+    namespace OpenQbit.Hospital.Common.Models.Phamarcy
     {
-        public int ID { get; set; }
-        public int GenricName { get; set; }
-        public virtual ICollection<Drug> Drug { get; set; }
+        public class Medicine
+        {
+            public int GenericID { get; set; }
+            public int GenricName { get; set; }
+            public virtual ICollection<Drug> Drug { get; set; }
+        }
     }
+
 }

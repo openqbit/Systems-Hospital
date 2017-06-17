@@ -6,16 +6,20 @@ using System.Web;
 
 namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
-    public class Payment
+
+    namespace OpenQbit.Hospital.Common.Models.Phamarcy
     {
-        public int ID { get; set; }
+        public class Payment
+        {
+            public int PaymentID { get; set; }
 
-        public double totalAmount { get; set; }
+            public double TotalAmount { get; set; }
 
-        public double ItemDiscount { get; set; }
+            public double ItemDiscount { get; set; }
 
-        public DateTime date { get; set; }
+            public DateTime Date { get; set; }
 
-        public virtual PharmacyOrders PharmacyOrders { get; set; }
+            public virtual PharmacyOrders PharmacyOrders { get; set; }
+        }
     }
 }

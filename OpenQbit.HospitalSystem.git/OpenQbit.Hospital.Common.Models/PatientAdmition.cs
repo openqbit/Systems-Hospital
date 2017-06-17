@@ -4,19 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using OpenQbit.Hospital.Common.Models.Phamarcy;
+using OpenQbit.Hospital.Common.Models.Phamarcy.OpenQbit.Hospital.Common.Models.Phamarcy;
 
 namespace OpenQbit.Hospital.Common.Models
 {
-    public class PatientAdmition
+
+    namespace OpenQbit.Hospital.Common.Models
     {
-        public int ID { get; set; }
+        public class PatientAdmition
+        {
+            public int PatientAdmitionId { get; set; }
 
-        public int PatientId { get; set; }
-        public Patient Patient { get; set; }
+            public int PatientId { get; set; }
+            public Patient Patient { get; set; }
 
-        public DateTime Date { get; set; }
+            public DateTime Date { get; set; }
 
-        public virtual ICollection<PharmacyOrders> Orders { get; set; }
+            public virtual ICollection<PharmacyOrders> Orders { get; set; }
 
+        }
     }
+
 }

@@ -7,19 +7,23 @@ using System.Web;
 
 namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
-    public class PharmacyOrders
+
+    namespace OpenQbit.Hospital.Common.Models.Phamarcy
     {
-        public int ID { get; set; }
+        public class PharmacyOrders
+        {
+            public int OrderID { get; set; }
 
-        public DateTime Time { get; set; }
+            public DateTime Time { get; set; }
 
-        public DateTime date { get; set; }
+            public DateTime Date { get; set; }
 
-        public int PatientAdmitionId { get; set; }
+            public int PatientAdmitionId { get; set; }
 
-        public virtual PatientAdmition PatientAdmition { get; set; }
+            public virtual PatientAdmition PatientAdmition { get; set; }
 
-        public virtual ICollection<Payment> Payment { get; set; }
+            public virtual ICollection<Payment> Payment { get; set; }
 
+        }
     }
 }

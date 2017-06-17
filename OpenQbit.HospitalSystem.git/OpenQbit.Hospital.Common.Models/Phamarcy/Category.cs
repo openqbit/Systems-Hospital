@@ -5,14 +5,17 @@ using System.Web;
 
 namespace OpenQbit.Hospital.Common.Models.Phamarcy
 {
-    public class Category
+    namespace OpenQbit.Hospital.Common.Models.Phamarcy
     {
-        public int ID { get; set; }
+        public class Category
+        {
+            public int CategoryID { get; set; }
 
-        public String categoryName { get; set; }
+            public String CategoryName { get; set; }
 
-       // public virtual ICollection<PharmacyOrdersDetail> OrderDetail { get; set; }
+            // public virtual ICollection<PharmacyOrdersDetail> OrderDetail { get; set; }
 
-        public virtual ICollection<Drug> Drug { get; set; }
+            public virtual ICollection<Drug> Drug { get; set; }
+        }
     }
 }
