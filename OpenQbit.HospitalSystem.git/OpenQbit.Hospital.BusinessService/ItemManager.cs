@@ -1,12 +1,15 @@
-﻿using System;
+﻿using OpenQbit.Hospital.BusinessService.Contracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQbit.Hospital.Common.Models;
+using OpenQbit.Hospital.DataAccess.DAL.Contracts;
 
 namespace OpenQbit.Hospital.BusinessService
 {
-    public class ItemManager :ItemManager
+    public class ItemManager :IItemManager
     {
         private IRepository _repository;
 
@@ -51,6 +54,11 @@ namespace OpenQbit.Hospital.BusinessService
         }
 
         public bool RecoredResorce(Resorce resource)
+        {
+            throw new NotImplementedException();
+        }
+
+        public bool RecoredManager(Item item)
         {
             throw new NotImplementedException();
         }
