@@ -197,6 +197,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Phamarcy\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Phamarcy\PhamarcyAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -223,6 +224,11 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Areas\Phamarcy\Views\web.config" />
+    <Content Include="Areas\Phamarcy\Views\Categories\Create.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Categories\Delete.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Categories\Details.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Categories\Edit.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Categories\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -272,7 +278,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Phamarcy\Controllers\" />
     <Folder Include="Areas\Phamarcy\Models\" />
     <Folder Include="Areas\Phamarcy\Views\Shared\" />
   </ItemGroup>
