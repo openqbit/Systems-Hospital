@@ -50,7 +50,26 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="ContractTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.Hospital.BusinessService.Contracts\OpenQbit.Hospital.BusinessService.Contracts.csproj">
+      <Project>{cd15201e-f1d7-4d00-a38f-cc93245d86b4}</Project>
+      <Name>OpenQbit.Hospital.BusinessService.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj">
+      <Project>{27cbc4b0-558d-4cf7-bf7d-a557fe1b8b51}</Project>
+      <Name>OpenQbit.Hospital.Common.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.DataAccess.DAL.Contracts\OpenQbit.Hospital.DataAccess.DAL.Contracts.csproj">
+      <Project>{6d07f9fe-0182-468d-9fd5-4935880b4936}</Project>
+      <Name>OpenQbit.Hospital.DataAccess.DAL.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.DataAccsess.DAL\OpenQbit.Hospital.DataAccsess.DAL.csproj">
+      <Project>{8d38d97d-bc4f-42a8-a0fd-bcd3259a27c7}</Project>
+      <Name>OpenQbit.Hospital.DataAccsess.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
