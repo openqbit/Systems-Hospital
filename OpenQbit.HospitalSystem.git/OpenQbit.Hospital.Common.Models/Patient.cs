@@ -1,4 +1,5 @@
-﻿using OpenQbit.Hospital.Common.Models.Phamarcy;
+﻿using OpenQbit.Hospital.Common.Models.OpenQbit.Hospital.Common.Models;
+using OpenQbit.Hospital.Common.Models.Phamarcy;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,5 @@ namespace OpenQbit.Hospital.Common.Models
         public virtual ICollection<PatientAdmition> PatientAdmition { get; set; }
         
 
-        }
     }
 }

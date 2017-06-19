@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Doctor.cs" />
     <Compile Include="Item.cs" />
+    <Compile Include="Patient.cs" />
     <Compile Include="PatientAdmition.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="Phamarcy\Category.cs" />
