@@ -9,14 +9,11 @@ namespace OpenQbit.Hospital.Common.Models
     public class Patient
     {
         public int ID { get; set; }
-        public string PatientName { get; set; }
-
-        public int PersonId { get; set; }
-
-        public virtual Person Person { get; set; }
-
+        public String PatientName { get; set; }
+        
         public virtual ICollection<PatientAdmition> PatientAdmition { get; set; }
         
 
+        }
     }
 }
