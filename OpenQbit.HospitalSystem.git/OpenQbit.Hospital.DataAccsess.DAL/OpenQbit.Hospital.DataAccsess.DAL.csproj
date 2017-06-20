@@ -56,6 +56,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PharmacyContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -65,6 +66,10 @@
     <ProjectReference Include="..\OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj">
       <Project>{27cbc4b0-558d-4cf7-bf7d-a557fe1b8b51}</Project>
       <Name>OpenQbit.Hospital.Common.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.DataAccess.DAL.Contracts\OpenQbit.Hospital.DataAccess.DAL.Contracts.csproj">
+      <Project>{6d07f9fe-0182-468d-9fd5-4935880b4936}</Project>
+      <Name>OpenQbit.Hospital.DataAccess.DAL.Contracts</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

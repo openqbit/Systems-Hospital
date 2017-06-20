@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Practices.Unity;
-using OpenQbit.Masterdb.BusinessService.Contracts;
+using OpenQbit.Hospital.BusinessService.Contracts;
+using OpenQbit.Hospital.DataAccess.DAL.Contracts;
+using OpenQbit.Hospital.DataAccsess.DAL;
 
 namespace OpenQbit.Masterdb.Common.Ioc
 {
@@ -15,9 +17,9 @@ namespace OpenQbit.Masterdb.Common.Ioc
         public static void Register()
         {
             Container.RegisterType<IRepository, Repository>();
-            Container.RegisterType<ILogger, LoggerB>();
+           // Container.RegisterType<ILogger, LoggerB>();
 
-            Container.RegisterType<RResourceManger, ResourceManger>();
+           // Container.RegisterType<RResourceManger, ResourceManger>();
 
         }
 

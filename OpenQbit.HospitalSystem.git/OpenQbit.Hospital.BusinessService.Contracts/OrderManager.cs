@@ -8,6 +8,6 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
 {
     public interface OOrderManager
     {
-        bool RecoredManager(OrderManager ordermanager);
+        //bool RecoredManager(OrderManager ordermanager);
     }
 }

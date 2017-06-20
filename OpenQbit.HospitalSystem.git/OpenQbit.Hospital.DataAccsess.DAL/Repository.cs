@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OpenQbit.Hospital.BusinessService.Contracts
+using OpenQbit.Hospital.DataAccess.DAL.Contracts;
+
+namespace OpenQbit.Hospital.DataAccsess.DAL
 {
-    public interface IInventory
+    public class Repository : IRepository
     {
-       // bool RecoredManager(Inventory inventory);
     }
 }
