@@ -19,5 +19,6 @@ namespace OpenQbit.Hospital.Common.Models.Ward
         public virtual Management.Employee Incharge { get; set; }
         public int WardTypeId { get; set; }
         public virtual WardType WardType { get; set; }
+        
     }
 }
