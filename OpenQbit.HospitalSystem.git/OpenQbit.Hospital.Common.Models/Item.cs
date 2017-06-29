@@ -15,7 +15,7 @@ namespace OpenQbit.Hospital.Common.Models
 
         public int RefID { get; set; }
 
-        // need Dynamic object
+        // need Dynamic objects
         
 
     }
