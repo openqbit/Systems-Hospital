@@ -324,6 +324,7 @@
     <Folder Include="Areas\Phamarcy\Models\" />
     <Folder Include="Areas\Phamarcy\Views\Shared\" />
     <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
