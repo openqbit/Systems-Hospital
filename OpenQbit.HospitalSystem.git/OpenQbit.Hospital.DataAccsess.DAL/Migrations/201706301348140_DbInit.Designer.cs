@@ -13,7 +13,7 @@ namespace OpenQbit.Hospital.DataAccsess.DAL.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201706170457438_DbInit"; }
+            get { return "201706301348140_DbInit"; }
         }
         
         string IMigrationMetadata.Source

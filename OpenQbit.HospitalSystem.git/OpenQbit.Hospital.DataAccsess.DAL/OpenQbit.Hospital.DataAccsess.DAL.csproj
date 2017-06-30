@@ -49,9 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\201706170457438_DbInit.cs" />
-    <Compile Include="Migrations\201706170457438_DbInit.Designer.cs">
-      <DependentUpon>201706170457438_DbInit.cs</DependentUpon>
+    <Compile Include="Migrations\201706301348140_DbInit.cs" />
+    <Compile Include="Migrations\201706301348140_DbInit.Designer.cs">
+      <DependentUpon>201706301348140_DbInit.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="PharmacyContext.cs" />
@@ -73,8 +73,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201706170457438_DbInit.resx">
-      <DependentUpon>201706170457438_DbInit.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201706301348140_DbInit.resx">
+      <DependentUpon>201706301348140_DbInit.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
