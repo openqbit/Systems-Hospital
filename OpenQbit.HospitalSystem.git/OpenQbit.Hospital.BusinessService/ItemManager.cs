@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using OpenQbit.Hospital.Common.Models;
 using OpenQbit.Hospital.DataAccess.DAL.Contracts;
 using OpenQbit.Hospital.Common.Utils.Logs;
+using Microsoft.Practices.Unity;
 
 namespace OpenQbit.Hospital.BusinessService
 {
@@ -17,7 +18,7 @@ namespace OpenQbit.Hospital.BusinessService
         private ILogger _log;
 
         [InjectionConstructor]    // Constructore  inject
-        public InvoiceManger(IRepository repository, ILogger log)
+        public ItemManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
             this._log = log;
