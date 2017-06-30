@@ -17,7 +17,7 @@ namespace OpenQbit.Hospital.BusinessService
 
         private ILogger _log;
 
-        [InjectionConstructor]    // Constructore  inject
+        [InjectionConstructor]  
         public ItemManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
@@ -25,14 +25,14 @@ namespace OpenQbit.Hospital.BusinessService
         }
 
 
-        [Dependency] //for setters
+        [Dependency] 
         public IRepository Repository
         {
             get { return _repository; }
             set { _repository = value; }
         }
 
-        [Dependency] //for setters
+        [Dependency] 
         public ILogger Logger
         {
             get { return _log; }
@@ -40,7 +40,7 @@ namespace OpenQbit.Hospital.BusinessService
         }
 
 
-        [InjectionMethod] // for methodes
+        [InjectionMethod] 
         public void SetRepository(IRepository repository)
         {
             _repository = repository;
@@ -50,7 +50,7 @@ namespace OpenQbit.Hospital.BusinessService
         {
             _log.LogError("");
 
-            return _repository.Create<Invoice>(invoice);
+            return _repository.Create<Item>(item);
         }
     }
 }
