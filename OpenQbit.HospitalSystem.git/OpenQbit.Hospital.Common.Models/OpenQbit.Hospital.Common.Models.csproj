@@ -52,6 +52,9 @@
     <Compile Include="Doctor.cs" />
     <Compile Include="Item.cs" />
     <Compile Include="Management\Employee.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="PatientAdmition.cs" />
     <Compile Include="Person.cs" />
@@ -71,11 +74,26 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="obj\Debug\build.force" />
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\OpenQbit.Hospital.Common.Models.csprojResolveAssemblyReference.cache" />
     <None Include="packages.config">
       <SubType>Designer</SubType>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Content Include="bin\Debug\OpenQbit.Hospital.Common.Models.dll" />
+    <Content Include="bin\Debug\OpenQbit.Hospital.Common.Models.pdb" />
+    <Content Include="bin\Release\OpenQbit.Hospital.Common.Models.dll" />
+    <Content Include="bin\Release\OpenQbit.Hospital.Common.Models.pdb" />
+    <Content Include="obj\Debug\OpenQbit.Hospital.Common.Models.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\OpenQbit.Hospital.Common.Models.dll" />
+    <Content Include="obj\Debug\OpenQbit.Hospital.Common.Models.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\TempPE\" />
+    <Folder Include="obj\Release\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
