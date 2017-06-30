@@ -66,6 +66,16 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj">
+      <Project>{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}</Project>
+      <Name>OpenQbit.Hospital.Common.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.DataAccsess.DAL\OpenQbit.Hospital.DataAccsess.DAL.csproj">
+      <Project>{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7}</Project>
+      <Name>OpenQbit.Hospital.DataAccsess.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
