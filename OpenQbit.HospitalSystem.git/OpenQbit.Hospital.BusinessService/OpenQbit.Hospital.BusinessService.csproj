@@ -46,6 +46,24 @@
     <Compile Include="PatientManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.Hospital.BusinessService.Contracts\OpenQbit.Hospital.BusinessService.Contracts.csproj">
+      <Project>{CD15201E-F1D7-4D00-A38F-CC93245D86B4}</Project>
+      <Name>OpenQbit.Hospital.BusinessService.Contracts</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj">
+      <Project>{27cbc4b0-558d-4cf7-bf7d-a557fe1b8b51}</Project>
+      <Name>OpenQbit.Hospital.Common.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.Common.Utils.Logs\OpenQbit.Hospital.Common.Utils.Logs.csproj">
+      <Project>{e5fe8fdd-7567-4477-a194-810ad710a7c7}</Project>
+      <Name>OpenQbit.Hospital.Common.Utils.Logs</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.DataAccess.DAL.Contracts\OpenQbit.Hospital.DataAccess.DAL.Contracts.csproj">
+      <Project>{6d07f9fe-0182-468d-9fd5-4935880b4936}</Project>
+      <Name>OpenQbit.Hospital.DataAccess.DAL.Contracts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

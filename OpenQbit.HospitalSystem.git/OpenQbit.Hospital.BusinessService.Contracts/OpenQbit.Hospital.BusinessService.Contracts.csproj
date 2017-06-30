@@ -40,7 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IInventory.cs" />
+    <Compile Include="IInventoryManager.cs" />
     <Compile Include="IItemManager.cs" />
     <Compile Include="IOrderManager.cs" />
     <Compile Include="IPatientManager.cs" />

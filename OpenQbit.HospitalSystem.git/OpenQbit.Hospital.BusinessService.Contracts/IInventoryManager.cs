@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.BusinessService.Contracts
 {
-    public interface IInventory
+    public interface IInventoryManager
     {
         bool RecoredInventory(Ward ward);
     }
