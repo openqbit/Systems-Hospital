@@ -20,7 +20,7 @@ namespace OpenQbit.Masterdb.Common.Ioc
             Container.RegisterType<IRepository, Repository>();
             Container.RegisterType<ILogger, LoggerB>();
 
-            Container.RegisterType<RResourceManger, ResourceManger>();
+          //  Container.RegisterType<RResourceManger, ResourceManger>();
 
         }
 

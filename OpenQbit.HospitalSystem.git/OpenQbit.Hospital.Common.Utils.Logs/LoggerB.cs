@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.Common.Utils.Logs
 {
-    class LoggerB : ILogger
+    public class LoggerB : ILogger
     {
         public bool LogError(string err)
         {
