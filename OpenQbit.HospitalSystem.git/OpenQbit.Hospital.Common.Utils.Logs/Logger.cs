@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.Common.Utils.Logs
 {
-    class Logger
+    public class Logger : ILogger
     {
+        public bool LogError(string err)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
