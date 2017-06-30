@@ -56,7 +56,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
@@ -81,6 +80,10 @@
     <ProjectReference Include="..\OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj">
       <Project>{27cbc4b0-558d-4cf7-bf7d-a557fe1b8b51}</Project>
       <Name>OpenQbit.Hospital.Common.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\OpenQbit.Hospital.Common.Utils.Logs\OpenQbit.Hospital.Common.Utils.Logs.csproj">
+      <Project>{E5FE8FDD-7567-4477-A194-810AD710A7C7}</Project>
+      <Name>OpenQbit.Hospital.Common.Utils.Logs</Name>
     </ProjectReference>
     <ProjectReference Include="..\OpenQbit.Hospital.DataAccess.DAL.Contracts\OpenQbit.Hospital.DataAccess.DAL.Contracts.csproj">
       <Project>{6d07f9fe-0182-468d-9fd5-4935880b4936}</Project>

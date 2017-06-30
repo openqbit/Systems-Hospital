@@ -7,6 +7,7 @@ using Microsoft.Practices.Unity;
 using OpenQbit.Hospital.BusinessService.Contracts;
 using OpenQbit.Hospital.DataAccess.DAL.Contracts;
 using OpenQbit.Hospital.DataAccsess.DAL;
+using OpenQbit.Hospital.Common.Utils.Logs;
 
 namespace OpenQbit.Masterdb.Common.Ioc
 {
@@ -17,9 +18,9 @@ namespace OpenQbit.Masterdb.Common.Ioc
         public static void Register()
         {
             Container.RegisterType<IRepository, Repository>();
-           // Container.RegisterType<ILogger, LoggerB>();
+            Container.RegisterType<ILogger, LoggerB>();
 
-           // Container.RegisterType<RResourceManger, ResourceManger>();
+            Container.RegisterType<RResourceManger, ResourceManger>();
 
         }
 
