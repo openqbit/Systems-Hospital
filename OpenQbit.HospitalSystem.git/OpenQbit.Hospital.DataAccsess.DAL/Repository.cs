@@ -34,7 +34,7 @@ namespace OpenQbit.Hospital.DataAccsess.DAL
 
         public List<T> GetAll<T>() where T : class
         {
-            throw new NotImplementedException();
+            return _db.Set<T>().ToList();
         }
 
         public bool Save()
