@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.BusinessService.Contracts
 {
-    public interface OOrderManager
+    public interface IOrderManager
     {
         bool RecoredOrder(Drug drug);
     }
