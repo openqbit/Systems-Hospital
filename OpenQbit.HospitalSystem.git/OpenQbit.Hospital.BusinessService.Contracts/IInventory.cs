@@ -1,4 +1,5 @@
 ﻿using OpenQbit.Hospital.Common.Models;
+using OpenQbit.Hospital.Common.Models.Ward;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
 {
     public interface IInventory
     {
-        bool RecoredInventory(Patient patient);
+        bool RecoredInventory(Ward ward);
     }
 }

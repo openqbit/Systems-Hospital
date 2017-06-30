@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OpenQbit.Hospital.Common.Models.Phamarcy.OpenQbit.Hospital.Common.Models.Phamarcy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
 {
     public interface OOrderManager
     {
-        bool RecoredManager(OrderManager ordermanager);
+        bool RecoredOrder(Drug drug);
     }
 }
