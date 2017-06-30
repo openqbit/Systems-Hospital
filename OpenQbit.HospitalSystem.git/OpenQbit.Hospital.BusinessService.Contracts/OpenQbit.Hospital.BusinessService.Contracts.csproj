@@ -46,6 +46,12 @@
     <Compile Include="IPatientManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OpenQbit.Hospital.Common.Models\OpenQbit.Hospital.Common.Models.csproj">
+      <Project>{27CBC4B0-558D-4CF7-BF7D-A557FE1B8B51}</Project>
+      <Name>OpenQbit.Hospital.Common.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

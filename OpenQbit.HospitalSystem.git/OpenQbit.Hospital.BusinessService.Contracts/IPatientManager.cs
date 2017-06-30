@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.BusinessService.Contracts
 {
-    class IPatientManager
+    public interface IPatientManager
     {
+        bool RecoredManager(OrderManager ordermanager);
     }
 }
