@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 Common", "0 Common", "{88700C72-71ED-452E-9E89-DDD71D50328B}"
 EndProject
@@ -32,6 +32,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Presentation.Web", "OpenQbit.Hospital.Presentation.Web\OpenQbit.Hospital.Presentation.Web.csproj", "{C643ACDA-3157-4626-9855-7D2B42AB0EF8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.HospitalSystem.Common.loc", "OpenQbit.HospitalSystem.Common.loc\OpenQbit.HospitalSystem.Common.loc.csproj", "{5B5BC0A9-78E4-4F7A-B9CF-E0FEBA0A9EC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{200C26CD-50B6-43DF-8FE7-5F73F32BC9B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenQbit.Hospital.Common.Utils.Logs", "OpenQbit.Hospital.Common.Utils.Logs\OpenQbit.Hospital.Common.Utils.Logs.csproj", "{E5FE8FDD-7567-4477-A194-810AD710A7C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,10 @@ Global
 		{5B5BC0A9-78E4-4F7A-B9CF-E0FEBA0A9EC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B5BC0A9-78E4-4F7A-B9CF-E0FEBA0A9EC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B5BC0A9-78E4-4F7A-B9CF-E0FEBA0A9EC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5FE8FDD-7567-4477-A194-810AD710A7C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5FE8FDD-7567-4477-A194-810AD710A7C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5FE8FDD-7567-4477-A194-810AD710A7C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5FE8FDD-7567-4477-A194-810AD710A7C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,5 +97,7 @@ Global
 		{8D38D97D-BC4F-42A8-A0FD-BCD3259A27C7} = {D05AA73A-CC45-493A-BFC2-93D9EE6E6CC3}
 		{C643ACDA-3157-4626-9855-7D2B42AB0EF8} = {74E2477C-82DD-40F1-8ED5-A646E2BA70D4}
 		{5B5BC0A9-78E4-4F7A-B9CF-E0FEBA0A9EC0} = {88700C72-71ED-452E-9E89-DDD71D50328B}
+		{200C26CD-50B6-43DF-8FE7-5F73F32BC9B6} = {88700C72-71ED-452E-9E89-DDD71D50328B}
+		{E5FE8FDD-7567-4477-A194-810AD710A7C7} = {200C26CD-50B6-43DF-8FE7-5F73F32BC9B6}
 	EndGlobalSection
 EndGlobal
