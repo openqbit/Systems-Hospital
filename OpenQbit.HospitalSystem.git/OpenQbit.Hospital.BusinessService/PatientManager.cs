@@ -18,7 +18,7 @@ namespace OpenQbit.Hospital.BusinessService
         private ILogger _log;
 
         [InjectionConstructor]    // Constructore  inject
-        public InvoiceManger(IRepository repository, ILogger log)
+        public PatientManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
             this._log = log;
