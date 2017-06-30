@@ -48,7 +48,9 @@ namespace OpenQbit.Hospital.BusinessService
 
         public bool RecoredInventory(Ward ward)
         {
-            throw new NotImplementedException();
+            _log.LogError("");
+
+            return _repository.Create<Invoice>(invoice);
         }
     }
 }

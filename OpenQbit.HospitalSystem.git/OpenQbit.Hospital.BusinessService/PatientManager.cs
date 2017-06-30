@@ -48,7 +48,9 @@ namespace OpenQbit.Hospital.BusinessService
 
         public bool RecoredPatien(Patient patient)
         {
-            throw new NotImplementedException();
+            _log.LogError("");
+
+            return _repository.Create<Invoice>(invoice);
         }
     }
 }
