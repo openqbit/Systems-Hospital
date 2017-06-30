@@ -40,9 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Inventory.cs" />
-    <Compile Include="ItemManager.cs" />
-    <Compile Include="OrderManager.cs" />
+    <Compile Include="IInventory.cs" />
+    <Compile Include="IItemManager.cs" />
+    <Compile Include="IOrderManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
