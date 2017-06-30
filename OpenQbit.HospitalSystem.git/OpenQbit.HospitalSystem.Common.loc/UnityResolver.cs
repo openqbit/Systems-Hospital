@@ -8,6 +8,7 @@ using OpenQbit.Hospital.BusinessService.Contracts;
 using OpenQbit.Hospital.DataAccess.DAL.Contracts;
 using OpenQbit.Hospital.DataAccsess.DAL;
 using OpenQbit.Hospital.Common.Utils.Logs;
+using OpenQbit.Hospital.BusinessService;
 
 namespace OpenQbit.Masterdb.Common.Ioc
 {
@@ -20,7 +21,10 @@ namespace OpenQbit.Masterdb.Common.Ioc
             Container.RegisterType<IRepository, Repository>();
             Container.RegisterType<ILogger, LoggerB>();
 
-          //  Container.RegisterType<RResourceManger, ResourceManger>();
+            Container.RegisterType<IOrderManager, OrderManager>();
+            Container.RegisterType<IInventoryManager, InventoryManager>();
+            Container.RegisterType<IItemManager, ItemManager>();
+            Container.RegisterType<IPatientManager, PatientManager>();
 
         }
 
