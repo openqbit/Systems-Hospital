@@ -198,6 +198,9 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Areas\Phamarcy\Controllers\CategoriesController.cs" />
+    <Compile Include="Areas\Phamarcy\Controllers\DrugsController.cs" />
+    <Compile Include="Areas\Phamarcy\Controllers\MedicinesController.cs" />
+    <Compile Include="Areas\Phamarcy\Controllers\PaymentsController.cs" />
     <Compile Include="Areas\Phamarcy\PhamarcyAreaRegistration.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -272,6 +275,21 @@
     <Content Include="Areas\Phamarcy\Views\Categories\Index.cshtml" />
     <Content Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Debug\OpenQbit.Hospital.Presentation.Web.csprojResolveAssemblyReference.cache" />
+    <Content Include="Areas\Phamarcy\Views\Drugs\Create.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Drugs\Delete.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Drugs\Details.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Drugs\Edit.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Drugs\Index.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Medicines\Create.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Medicines\Delete.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Medicines\Details.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Medicines\Edit.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Medicines\Index.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Payments\Create.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Payments\Delete.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Payments\Details.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Payments\Edit.cshtml" />
+    <Content Include="Areas\Phamarcy\Views\Payments\Index.cshtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -322,6 +340,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\Phamarcy\Models\" />
+    <Folder Include="Areas\Phamarcy\Views\Default\" />
     <Folder Include="Areas\Phamarcy\Views\Shared\" />
     <Folder Include="obj\Debug\TempPE\" />
     <Folder Include="obj\Release\" />
