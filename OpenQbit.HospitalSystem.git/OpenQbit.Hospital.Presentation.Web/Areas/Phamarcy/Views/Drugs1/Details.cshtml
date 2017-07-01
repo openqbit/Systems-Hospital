@@ -1,0 +1,59 @@
+﻿@model OpenQbit.Hospital.Common.Models.Phamarcy.OpenQbit.Hospital.Common.Models.Phamarcy.Drug
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Drug</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Category.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Medicine.ID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Medicine.ID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.drugName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.drugName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Company)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Company)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
