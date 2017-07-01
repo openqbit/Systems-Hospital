@@ -209,6 +209,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PatientAdmitionsController.cs" />
     <Compile Include="Controllers\Patients1Controller.cs" />
+    <Compile Include="Controllers\PersonController.cs" />
     <Compile Include="Controllers\WardsController.cs" />
     <Compile Include="Controllers\WardTypesController.cs" />
     <Compile Include="Global.asax.cs">
@@ -372,6 +373,11 @@
     <Content Include="Views\WardTypes\Details.cshtml" />
     <Content Include="Views\WardTypes\Edit.cshtml" />
     <Content Include="Views\WardTypes\Index.cshtml" />
+    <Content Include="Views\Person\Create.cshtml" />
+    <Content Include="Views\Person\Delete.cshtml" />
+    <Content Include="Views\Person\Details.cshtml" />
+    <Content Include="Views\Person\Edit.cshtml" />
+    <Content Include="Views\Person\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
