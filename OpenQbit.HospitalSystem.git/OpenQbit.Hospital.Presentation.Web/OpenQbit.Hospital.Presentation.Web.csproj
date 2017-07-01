@@ -207,6 +207,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Items1Controller.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\Patients1Controller.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -348,6 +349,11 @@
     <Content Include="Views\Items1\Details.cshtml" />
     <Content Include="Views\Items1\Edit.cshtml" />
     <Content Include="Views\Items1\Index.cshtml" />
+    <Content Include="Views\Patients1\Create.cshtml" />
+    <Content Include="Views\Patients1\Delete.cshtml" />
+    <Content Include="Views\Patients1\Details.cshtml" />
+    <Content Include="Views\Patients1\Edit.cshtml" />
+    <Content Include="Views\Patients1\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
