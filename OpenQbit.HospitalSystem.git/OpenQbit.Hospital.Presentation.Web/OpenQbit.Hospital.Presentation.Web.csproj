@@ -207,7 +207,10 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Items1Controller.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\PatientAdmitionsController.cs" />
     <Compile Include="Controllers\Patients1Controller.cs" />
+    <Compile Include="Controllers\WardsController.cs" />
+    <Compile Include="Controllers\WardTypesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -354,6 +357,21 @@
     <Content Include="Views\Patients1\Details.cshtml" />
     <Content Include="Views\Patients1\Edit.cshtml" />
     <Content Include="Views\Patients1\Index.cshtml" />
+    <Content Include="Views\PatientAdmitions\Create.cshtml" />
+    <Content Include="Views\PatientAdmitions\Delete.cshtml" />
+    <Content Include="Views\PatientAdmitions\Details.cshtml" />
+    <Content Include="Views\PatientAdmitions\Edit.cshtml" />
+    <Content Include="Views\PatientAdmitions\Index.cshtml" />
+    <Content Include="Views\Wards\Create.cshtml" />
+    <Content Include="Views\Wards\Delete.cshtml" />
+    <Content Include="Views\Wards\Details.cshtml" />
+    <Content Include="Views\Wards\Edit.cshtml" />
+    <Content Include="Views\Wards\Index.cshtml" />
+    <Content Include="Views\WardTypes\Create.cshtml" />
+    <Content Include="Views\WardTypes\Delete.cshtml" />
+    <Content Include="Views\WardTypes\Details.cshtml" />
+    <Content Include="Views\WardTypes\Edit.cshtml" />
+    <Content Include="Views\WardTypes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

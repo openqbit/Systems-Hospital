@@ -39,5 +39,9 @@ namespace OpenQbit.Hospital.DataAccsess.DAL
         public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.Doctor> Doctors { get; set; }
 
         public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.Management.Employee> Employees { get; set; }
+
+        public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.Ward.Ward> Wards { get; set; }
+
+        public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.WardType> WardTypes { get; set; }
     }
 }
