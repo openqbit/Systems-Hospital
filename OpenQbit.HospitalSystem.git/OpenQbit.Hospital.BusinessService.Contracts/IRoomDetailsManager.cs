@@ -14,6 +14,6 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
         bool DeleteRoomDetails(RoomDetails RoomDetails);
         List<RoomDetails> GetAllRoomDetails();
         RoomDetails FindRoomDetails(RoomDetails RoomDetails);
-        List<RoomDetails> FindRoomDetails(List<RoomDetails> RoomDetails);
+        
     }
 }

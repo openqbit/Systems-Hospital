@@ -15,6 +15,6 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
         bool DeleteWardAdmition(WardAdmition WardAdmition);
         List<WardAdmition> GetAllWardAdmition();
         WardAdmition FindWardAdmition(WardAdmition WardAdmition);
-        List<WardAdmition> FindWardAdmition(List<WardAdmition> WardAdmition);
+        
     }
 }
