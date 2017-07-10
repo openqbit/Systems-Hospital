@@ -13,7 +13,7 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
         bool EditTreatment(Treatment Treatment);
         bool DeleteTreatment(Treatment Treatment);
         List<Treatment> GetAllTreatment();
-        Treatment FindTreatment(Treatment RoomDetails);
-        List<Treatment> FindTreatment(List<Treatment> Treatment);
+        Treatment FindTreatment(Treatment Treatment);
+        
     }
 }
