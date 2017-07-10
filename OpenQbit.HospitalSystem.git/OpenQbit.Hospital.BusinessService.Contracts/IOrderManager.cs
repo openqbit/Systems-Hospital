@@ -9,6 +9,10 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
 {
     public interface IOrderManager
     {
-        bool RecoredOrder(Drug drug);
+        bool RecoredOrder(PharmacyOrders order);
+        bool EditOrder(PharmacyOrders order);
+        bool RemoveOrder(PharmacyOrders order);
+        List<PharmacyOrders> GetAllOrders();
+        PharmacyOrders FindOrders(PharmacyOrders order);
     }
 }

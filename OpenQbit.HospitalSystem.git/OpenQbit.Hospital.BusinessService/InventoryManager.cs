@@ -24,28 +24,6 @@ namespace OpenQbit.Hospital.BusinessService
             this._log = log;
         }
 
-
-        [Dependency] 
-        public IRepository Repository
-        {
-            get { return _repository; }
-            set { _repository = value; }
-        }
-
-        [Dependency] 
-        public ILogger Logger
-        {
-            get { return _log; }
-            set { _log = value; }
-        }
-
-
-        [InjectionMethod]
-        public void SetRepository(IRepository repository)
-        {
-            _repository = repository;
-        }
-
         public bool RecoredInventory(Ward ward)
         {
             _log.LogError("");

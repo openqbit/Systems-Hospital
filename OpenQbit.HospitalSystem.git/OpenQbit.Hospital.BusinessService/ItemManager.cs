@@ -17,40 +17,42 @@ namespace OpenQbit.Hospital.BusinessService
 
         private ILogger _log;
 
-        [InjectionConstructor]  
+        [InjectionConstructor]
         public ItemManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
             this._log = log;
         }
 
-
-        //[Dependency] 
-        //public IRepository Repository
-        //{
-        //    get { return _repository; }
-        //    set { _repository = value; }
-        //}
-
-        //[Dependency] 
-        //public ILogger Logger
-        //{
-        //    get { return _log; }
-        //    set { _log = value; }
-        //}
-
-
-        //[InjectionMethod] 
-        //public void SetRepository(IRepository repository)
-        //{
-        //    _repository = repository;
-        //}
-
         public bool RecoredItem(Item item)
         {
             _log.LogError("");
 
             return _repository.Create<Item>(item);
+        }
+
+        public bool EditItem(Item item)
+        {
+            _log.LogError("");
+            return _repository.Update<Item>(item);
+        }
+
+        public bool RemoveItem(Item item)
+        {
+            _log.LogError("");
+            return _repository.Delete<Item>(item);
+        }
+
+        public List<Item> GetAllItem()
+        {
+            _log.LogError("");
+            return _repository.GetAll<Item>();
+        }
+
+        public Item FindItem(Item item)
+        {
+            _log.LogError("");
+            return _repository.Find<Item>(I => I.ID == item.ID);
         }
     }
 }

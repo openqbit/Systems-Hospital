@@ -17,40 +17,41 @@ namespace OpenQbit.Hospital.BusinessService
 
         private ILogger _log;
 
-        [InjectionConstructor]   
+        [InjectionConstructor]
         public OrderManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
             this._log = log;
         }
 
-
-        [Dependency] 
-        public IRepository Repository
-        {
-            get { return _repository; }
-            set { _repository = value; }
-        }
-
-        [Dependency]
-        public ILogger Logger
-        {
-            get { return _log; }
-            set { _log = value; }
-        }
-
-
-        [InjectionMethod] 
-        public void SetRepository(IRepository repository)
-        {
-            _repository = repository;
-        }
-
-        public bool RecoredOrder(Drug drug)
+        public bool RecoredOrder(PharmacyOrders order)
         {
             _log.LogError("");
+            return _repository.Create<PharmacyOrders>(order);
+        }
 
-            return _repository.Create<Drug>(drug);
+        public bool EditOrder(PharmacyOrders order)
+        {
+            _log.LogError("");
+            return _repository.Update<PharmacyOrders>(order);
+        }
+
+        public bool RemoveOrder(PharmacyOrders order)
+        {
+            _log.LogError("");
+            return _repository.Delete<PharmacyOrders>(order);
+        }
+
+        public List<PharmacyOrders> GetAllOrders()
+        {
+            _log.LogError("");
+            return _repository.GetAll<PharmacyOrders>();
+        }
+
+        public PharmacyOrders FindOrders(PharmacyOrders order)
+        {
+            _log.LogError("");
+            return _repository.Find<PharmacyOrders>(O => O.ID == order.ID);
         }
     }
 }
