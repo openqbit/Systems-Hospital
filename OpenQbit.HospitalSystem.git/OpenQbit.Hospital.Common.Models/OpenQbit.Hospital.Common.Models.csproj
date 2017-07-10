@@ -60,6 +60,11 @@
     <Compile Include="opd\Room.cs" />
     <Compile Include="opd\Treatment.cs" />
     <Compile Include="opd\TreatmentDetail.cs" />
+    <Compile Include="opd\Appointment.cs" />
+    <Compile Include="opd\Description.cs" />
+    <Compile Include="opd\Doctor.cs" />
+    <Compile Include="opd\Drug.cs" />
+    <Compile Include="opd\DrugDetail.cs" />
     <Compile Include="Patient.cs" />
     <Compile Include="PatientAdmition.cs" />
     <Compile Include="Person.cs" />
