@@ -360,11 +360,11 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Doctors1\Create.cshtml" />
-    <Content Include="Views\Doctors1\Delete.cshtml" />
-    <Content Include="Views\Doctors1\Details.cshtml" />
-    <Content Include="Views\Doctors1\Edit.cshtml" />
-    <Content Include="Views\Doctors1\Index.cshtml" />
+    <Content Include="Views\Home\Doctors1\Create.cshtml" />
+    <Content Include="Views\Home\Doctors1\Delete.cshtml" />
+    <Content Include="Views\Home\Doctors1\Details.cshtml" />
+    <Content Include="Views\Home\Doctors1\Edit.cshtml" />
+    <Content Include="Views\Home\Doctors1\Index.cshtml" />
     <Content Include="Views\Items1\Create.cshtml" />
     <Content Include="Views\Items1\Delete.cshtml" />
     <Content Include="Views\Items1\Details.cshtml" />
