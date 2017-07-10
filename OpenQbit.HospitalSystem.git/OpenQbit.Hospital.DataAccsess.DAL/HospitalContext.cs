@@ -1,4 +1,5 @@
 ﻿using OpenQbit.Hospital.Common.Models;
+using OpenQbit.Hospital.Common.Models.Management;
 using OpenQbit.Hospital.Common.Models.OpenQbit.Hospital.Common.Models;
 using OpenQbit.Hospital.Common.Models.Phamarcy;
 using OpenQbit.Hospital.Common.Models.Phamarcy.OpenQbit.Hospital.Common.Models.Phamarcy;
@@ -13,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.DataAccsess.DAL
 {
-   public class HospitalContext : DbContext
+    public class HospitalContext : DbContext
     {
         public HospitalContext() : base("HospitalDataBase")
         {
@@ -31,12 +32,6 @@ namespace OpenQbit.Hospital.DataAccsess.DAL
         public DbSet<PharmacyOrders> PharmacyOrders { get; set; }
         public DbSet<PharmacyOrdersDetail> PharmacyOrdersDetail { get; set; }
 
-
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
-        }
-
         public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.Doctor> Doctors { get; set; }
 
         public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.Management.Employee> Employees { get; set; }
@@ -52,6 +47,18 @@ namespace OpenQbit.Hospital.DataAccsess.DAL
 
         public DbSet<WardAdmition> WardAdmition { get; set; }
 
-        public DbSet <Room> Room { get; set; }
+        public DbSet<Room> Room { get; set; }
+
+        public DbSet<Attendance> Attendance { get; set; }
+
+        public DbSet<Salary> Salary { get; set; }
+
+        public DbSet<Person> Person { get; set; }
+
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+        }
     }
 }

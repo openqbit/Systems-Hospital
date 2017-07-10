@@ -25,6 +25,5 @@ namespace OpenQbit.Hospital.Common.Models
 
         public virtual ICollection<Employee> Emloyee { get; set; }
 
-
     }
 }

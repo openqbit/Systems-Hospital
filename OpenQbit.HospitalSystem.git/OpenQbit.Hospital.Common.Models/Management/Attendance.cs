@@ -6,18 +6,18 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.Common.Models.Management
 {
-    public class Salary
+   public  class Attendance
     {
         public int Id { get; set; }
-        public int SystemId { get; set; }
         public int EmployeeId { get; set; }
+        public int SystemId { get; set; }
         public DateTime Date { get; set; }
-        public double Transport { get; set; }
-        public double OT { get; set; }
-        public double Tax { get; set; }
-        public double EPF { get; set; }
-        public double EF { get; set; }
-        public double NoPay { get; set; }
+        public DateTime InTime { get; set; }
+        public DateTime OutTime { get; set; }
+        public DateTime ShortLeaveInTime { get; set; }
+        public DateTime ShortLeaveOutTime { get; set; }
+        public DateTime OTHourse { get; set; }
+
 
         public virtual Employee Employee { get; set; }
     }
