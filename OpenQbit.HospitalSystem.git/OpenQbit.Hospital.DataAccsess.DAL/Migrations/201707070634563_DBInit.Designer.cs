@@ -6,14 +6,14 @@ namespace OpenQbit.Hospital.DataAccsess.DAL.Migrations
     using System.Data.Entity.Migrations.Infrastructure;
     using System.Resources;
     
-    [GeneratedCode("EntityFramework.Migrations", "6.2.0-beta1-60406")]
-    public sealed partial class DbInit : IMigrationMetadata
+    [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
+    public sealed partial class DBInit : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(DbInit));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(DBInit));
         
         string IMigrationMetadata.Id
         {
-            get { return "201706301348140_DbInit"; }
+            get { return "201707070634563_DBInit"; }
         }
         
         string IMigrationMetadata.Source

@@ -13,7 +13,7 @@ namespace OpenQbit.Hospital.Presentation.Web.Controllers
 {
     public class Doctors1Controller : Controller
     {
-        private PharmacyContext db = new PharmacyContext();
+        private HospitalContext db = new HospitalContext();
 
         // GET: Doctors1
         public ActionResult Index()

@@ -2,6 +2,7 @@
 using OpenQbit.Hospital.Common.Models.OpenQbit.Hospital.Common.Models;
 using OpenQbit.Hospital.Common.Models.Phamarcy;
 using OpenQbit.Hospital.Common.Models.Phamarcy.OpenQbit.Hospital.Common.Models.Phamarcy;
+using OpenQbit.Hospital.Common.Models.Ward;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -12,9 +13,9 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.DataAccsess.DAL
 {
-   public class PharmacyContext : DbContext
+   public class HospitalContext : DbContext
     {
-        public PharmacyContext() : base("PharmacyDataBase")
+        public HospitalContext() : base("HospitalDataBase")
         {
             this.Configuration.ProxyCreationEnabled = false;
 
@@ -45,5 +46,12 @@ namespace OpenQbit.Hospital.DataAccsess.DAL
         public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.WardType> WardTypes { get; set; }
 
         public System.Data.Entity.DbSet<OpenQbit.Hospital.Common.Models.Person> People { get; set; }
+
+        public DbSet<RoomDetails> RoomDetails { get; set; }
+        public DbSet<Treatment> Treatment { get; set; }
+
+        public DbSet<WardAdmition> WardAdmition { get; set; }
+
+        public DbSet <Room> Room { get; set; }
     }
 }

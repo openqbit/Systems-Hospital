@@ -48,7 +48,7 @@ namespace OpenQbit.Hospital.Test.DAL
         [TestMethod]
         public void CustomerInsertTest()
         {
-            PharmacyContext db = new PharmacyContext();
+            HospitalContext db = new HospitalContext();
             Drug newDrug =
               new Drug
               { ID = 1122, drugName = "TestAddress", Description = "helo", Company = "ijse", MedicineId = 1010, CategoryId = 1034 };
