@@ -12,7 +12,7 @@ namespace OpenQbit.Hospital.DataAccsess.DAL
 {
     public class Repository : IRepository
     {
-        private PharmacyContext _db = new PharmacyContext();
+        private HospitalContext _db = new HospitalContext();
         public bool Create<T>(T obj) where T : class
         {
             try

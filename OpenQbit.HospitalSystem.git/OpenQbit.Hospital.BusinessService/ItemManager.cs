@@ -25,28 +25,28 @@ namespace OpenQbit.Hospital.BusinessService
         }
 
 
-        [Dependency] 
-        public IRepository Repository
-        {
-            get { return _repository; }
-            set { _repository = value; }
-        }
+        //[Dependency] 
+        //public IRepository Repository
+        //{
+        //    get { return _repository; }
+        //    set { _repository = value; }
+        //}
 
-        [Dependency] 
-        public ILogger Logger
-        {
-            get { return _log; }
-            set { _log = value; }
-        }
+        //[Dependency] 
+        //public ILogger Logger
+        //{
+        //    get { return _log; }
+        //    set { _log = value; }
+        //}
 
 
-        [InjectionMethod] 
-        public void SetRepository(IRepository repository)
-        {
-            _repository = repository;
-        }
+        //[InjectionMethod] 
+        //public void SetRepository(IRepository repository)
+        //{
+        //    _repository = repository;
+        //}
 
-        public bool RecoredManager(Item item)
+        public bool RecoredItem(Item item)
         {
             _log.LogError("");
 

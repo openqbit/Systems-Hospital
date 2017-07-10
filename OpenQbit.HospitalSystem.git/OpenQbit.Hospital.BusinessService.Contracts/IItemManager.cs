@@ -9,6 +9,6 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
 {
     public interface  IItemManager
     {
-       bool RecoredManager(Item item);
+       bool RecoredItem(Item item);
     }
 }

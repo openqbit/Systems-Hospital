@@ -13,7 +13,7 @@ namespace OpenQbit.Hospital.Presentation.Web.Areas.Phamarcy.Controllers
 {
     public class PharmacyOrdersDetailsController : Controller
     {
-        private PharmacyContext db = new PharmacyContext();
+        private HospitalContext db = new HospitalContext();
 
         // GET: Phamarcy/PharmacyOrdersDetails
         public ActionResult Index()
