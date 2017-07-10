@@ -197,6 +197,7 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Areas\Management\ManagementAreaRegistration.cs" />
     <Compile Include="Areas\Phamarcy\Controllers\CategoriesController.cs" />
     <Compile Include="Areas\Phamarcy\Controllers\DrugsController.cs" />
     <Compile Include="Areas\Phamarcy\Controllers\MedicinesController.cs" />
@@ -314,6 +315,7 @@
     <Content Include="Areas\Phamarcy\Views\PharmacyOrdersDetails\Details.cshtml" />
     <Content Include="Areas\Phamarcy\Views\PharmacyOrdersDetails\Edit.cshtml" />
     <Content Include="Areas\Phamarcy\Views\PharmacyOrdersDetails\Index.cshtml" />
+    <Content Include="Areas\Management\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -398,6 +400,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Management\Controllers\" />
+    <Folder Include="Areas\Management\Models\" />
+    <Folder Include="Areas\Management\Views\Shared\" />
     <Folder Include="Areas\Phamarcy\Models\" />
     <Folder Include="Areas\Phamarcy\Views\Default\" />
     <Folder Include="Areas\Phamarcy\Views\Shared\" />
