@@ -16,40 +16,45 @@ namespace OpenQbit.Hospital.BusinessService
         private IRepository _repository;
 
         private ILogger _log;
-
-        [InjectionConstructor]   
-        public PatientManager(IRepository repository, ILogger log)
+       public PatientManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
             this._log = log;
         }
-
-
-        [Dependency] 
-        public IRepository Repository
+        public bool DeletePatient(Patient Patient)
         {
-            get { return _repository; }
-            set { _repository = value; }
+            _log.LogError("");
+            return _repository.Delete<Patient>(Patient);
         }
 
-        [Dependency] 
-        public ILogger Logger
+        public bool EditPatient(Patient Patient)
         {
-            get { return _log; }
-            set { _log = value; }
+            _log.LogError("");
+            return _repository.Update<Patient>(Patient);
         }
 
-
-        [InjectionMethod] 
-        public void SetRepository(IRepository repository)
+        public Patient FindPatient(Patient Patient)
         {
-            _repository = repository;
+            _log.LogError("");
+            return _repository.Find<Patient>(P=>P.ID==Patient.ID);
         }
 
-        public bool RecoredPatien(Patient patient)
+        public List<Patient> FindPatientByName(string patientNamePart)
+        {
+            _log.LogError("");
+            return _repository.FindList<Patient>(p=>p.PatientName.Contains(patientNamePart));
+        }
+
+        public List<Patient> GetAllPatient()
         {
             _log.LogError("");
 
+            return _repository.GetAll<Patient>();
+        }
+
+        public bool RecoredPatient(Patient patient)
+        {
+            _log.LogError("");
             return _repository.Create<Patient>(patient);
         }
     }
