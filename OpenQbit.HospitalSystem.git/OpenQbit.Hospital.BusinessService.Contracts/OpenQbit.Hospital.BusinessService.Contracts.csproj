@@ -44,6 +44,10 @@
     <Compile Include="IItemManager.cs" />
     <Compile Include="IOrderManager.cs" />
     <Compile Include="IPatientManager.cs" />
+    <Compile Include="IRoomDetailsManager.cs" />
+    <Compile Include="ITreatmnetManager.cs" />
+    <Compile Include="IWardAdmitionManeger.cs" />
+    <Compile Include="IWardTypeManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
