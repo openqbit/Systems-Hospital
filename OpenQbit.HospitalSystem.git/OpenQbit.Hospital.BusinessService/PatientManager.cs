@@ -16,7 +16,7 @@ namespace OpenQbit.Hospital.BusinessService
         private IRepository _repository;
 
         private ILogger _log;
-       public PatientManager(IRepository repository, ILogger log)
+        public PatientManager(IRepository repository, ILogger log)
         {
             this._repository = repository;
             this._log = log;
