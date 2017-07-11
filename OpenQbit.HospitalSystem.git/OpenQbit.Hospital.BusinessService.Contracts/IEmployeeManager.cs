@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.BusinessService.Contracts
 {
-    public class IEmployeeManager
+    public interface IEmployeeManager
     {
         bool RecoredEmployee(Employee employee);
         bool EditEmployee(Employee employee);
