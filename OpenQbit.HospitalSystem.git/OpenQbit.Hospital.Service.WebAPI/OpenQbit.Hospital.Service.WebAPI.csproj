@@ -167,11 +167,32 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\API\RoomDetailsController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\API\ApiDoctor.cs" />
+    <Compile Include="Models\API\ApiEmployee.cs" />
+    <Compile Include="Models\API\ApiItem.cs" />
+    <Compile Include="Models\API\ApiPatient.cs" />
+    <Compile Include="Models\API\ApiPatientAdmition.cs" />
+    <Compile Include="Models\API\ApiPayment.cs" />
+    <Compile Include="Models\API\ApiPerson.cs" />
+    <Compile Include="Models\API\ApiPharmacyOrders.cs" />
+    <Compile Include="Models\API\ApiRoom.cs" />
+    <Compile Include="Models\API\ApiRoomDetails.cs" />
+    <Compile Include="Models\API\ApiTreatment.cs" />
+    <Compile Include="Models\API\ApiWard.cs" />
+    <Compile Include="Models\API\ApiWardAdmition.cs" />
+    <Compile Include="Models\API\ApiWardType.cs" />
+    <Compile Include="Models\API\ApiAttendance.cs" />
+    <Compile Include="Models\API\ApiSalary.cs" />
+    <Compile Include="Models\API\ApiCategory.cs" />
+    <Compile Include="Models\API\ApiDrug.cs" />
+    <Compile Include="Models\API\ApiMedicine.cs" />
+    <Compile Include="Models\API\ApiPharmacyOrdersDetail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -195,7 +216,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\RoomDetails\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Project_Readme.html" />
