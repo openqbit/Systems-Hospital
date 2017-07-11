@@ -40,6 +40,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAttendanceManager.cs" />
+    <Compile Include="IEmployeeManager.cs" />
     <Compile Include="IInventoryManager.cs" />
     <Compile Include="IItemManager.cs" />
     <Compile Include="IOrderManager.cs" />
