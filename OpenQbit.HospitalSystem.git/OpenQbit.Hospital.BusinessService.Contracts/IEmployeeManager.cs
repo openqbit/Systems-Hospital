@@ -12,7 +12,7 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
         bool RecoredEmployee(Employee employee);
         bool EditEmployee(Employee employee);
         bool RemoveEmployee(Employee employee);
-        List<Employee> GetAllEmployee();
+        List<Employee> GetAllEmployees();
         Employee FindEmployee(Employee employee);
     }
 }

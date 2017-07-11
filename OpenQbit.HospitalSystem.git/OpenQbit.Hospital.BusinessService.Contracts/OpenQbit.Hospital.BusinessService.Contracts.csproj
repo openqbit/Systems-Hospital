@@ -47,6 +47,7 @@
     <Compile Include="IOrderManager.cs" />
     <Compile Include="IPatientManager.cs" />
     <Compile Include="IRoomDetailsManager.cs" />
+    <Compile Include="ISalaryManager.cs" />
     <Compile Include="ITreatmnetManager.cs" />
     <Compile Include="IWardAdmitionManeger.cs" />
     <Compile Include="IWardTypeManager.cs" />

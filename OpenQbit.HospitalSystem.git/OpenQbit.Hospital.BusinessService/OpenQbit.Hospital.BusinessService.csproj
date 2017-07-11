@@ -65,6 +65,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AttendanceManager.cs" />
+    <Compile Include="EmployeeManager.cs" />
     <Compile Include="InventoryManager.cs" />
     <Compile Include="ItemManager.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
@@ -74,6 +76,7 @@
     <Compile Include="PatientManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="RoomDetailsManger.cs" />
+    <Compile Include="SalaryManager.cs" />
     <Compile Include="TreatmentManger.cs" />
     <Compile Include="WardAdmitionManger.cs" />
     <Compile Include="WardTypeManger.cs" />
