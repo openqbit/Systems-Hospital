@@ -9,6 +9,11 @@ namespace OpenQbit.Hospital.BusinessService.Contracts
 {
     public interface IPatientManager
     {
-        bool RecoredPatien(Patient patient);
+        bool RecoredPatient(Patient patient);
+        bool EditPatient(Patient Patient);
+        bool DeletePatient(Patient Patient);
+        List<Patient> GetAllPatient();
+        Patient FindPatient(Patient Patient);
+        List<Patient> FindPatientByName(String patientNamePart);
     }
 }
