@@ -40,10 +40,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAppointmentManager.cs" />
+    <Compile Include="IDescriptionManager.cs" />
+    <Compile Include="IDoctorManager.cs" />
+    <Compile Include="IDrugDetailManager.cs" />
+    <Compile Include="IDrugManager.cs" />
     <Compile Include="IInventoryManager.cs" />
     <Compile Include="IItemManager.cs" />
+    <Compile Include="IOPDPatientManager.cs" />
     <Compile Include="IOrderManager.cs" />
     <Compile Include="IPatientManager.cs" />
+    <Compile Include="IRecordManager.cs" />
+    <Compile Include="IRoomManager.cs" />
+    <Compile Include="ITreatmentDetailManager.cs" />
+    <Compile Include="ITreatmentManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -55,7 +55,7 @@
     <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
     <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
-    <Compile Include="opd\Patient.cs" />
+    <Compile Include="opd\OPDPatient.cs" />
     <Compile Include="opd\Record.cs" />
     <Compile Include="opd\Room.cs" />
     <Compile Include="opd\Treatment.cs" />

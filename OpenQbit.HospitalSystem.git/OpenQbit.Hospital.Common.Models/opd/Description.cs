@@ -15,7 +15,7 @@ namespace OpenQbit.Hospital.Common.Models.opd
         public virtual DrugDetail DrugDetail { get; set; }
         public virtual TreatmentDetail TreatmentDetail { get; set; }
         public virtual ICollection<Doctor> DoctorID { get; set; }
-        public virtual ICollection<Patient> PatientID { get; set; }
+        public virtual ICollection<OPDPatient> PatientID { get; set; }
         public virtual ICollection<Record> RecordID { get; set; }
     }
 }

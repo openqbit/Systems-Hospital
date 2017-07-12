@@ -12,7 +12,7 @@ namespace OpenQbit.Hospital.Common.Models.opd
         public String Date { get; set; }
         public string Time { get; set; }
 
-        public virtual ICollection<Patient> Patient { get; set; }
+        public virtual ICollection<OPDPatient> Patient { get; set; }
         public virtual ICollection<Room> Room { get; set; }
     }
 }

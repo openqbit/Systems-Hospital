@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OpenQbit.Hospital.Common.Models.opd
 {
-    public class Patient
+    public class OPDPatient
     {
         public int ID { get; set; }
         public string Name { get; set; }

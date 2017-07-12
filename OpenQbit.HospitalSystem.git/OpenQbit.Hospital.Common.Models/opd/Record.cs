@@ -9,7 +9,7 @@ namespace OpenQbit.Hospital.Common.Models.opd
     public class Record
     {
         public int RecID { get; set; }
-        public virtual ICollection<Patient> PatientID { get; set; }
+        public virtual ICollection<OPDPatient> PatientID { get; set; }
         public virtual Description Description { get; set; }
     }
 }
