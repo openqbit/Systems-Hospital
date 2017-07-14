@@ -54,7 +54,7 @@ namespace OpenQbit.Hospital.Service.PayrollService
                 {
                     var jsonStringResponse = await response.Content.ReadAsStringAsync();
                     //  person = _jsonSerializer.Deserialize<Person>(jsonString);
-                    responseStat = _jsonSerializer.Deserialize<bool>(jsonString));
+                    responseStat = _jsonSerializer.Deserialize<bool>(jsonString);
                 }
             }
 
